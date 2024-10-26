@@ -1,0 +1,27 @@
+[_tb_system_call storage=system/_preview.ks ]
+
+[mask time=10]
+[bg  time="10"  method="crossfade"  storage="спорт.png"  ]
+[playbgm  volume="50"  time="1000"  loop="true"  storage="music.m4a"  ]
+[tb_show_message_window] 
+[chara_show  name="Даниил"  time="10"  wait="true"  storage="chara/5/задумался_светится.png"  width="512"  height="679"  left="749"  top="142"  reflect="false"  ]
+[chara_show  name="Ирина"  time="10"  wait="true"  storage="chara/2/светится.png"  width="375"  height="587"  left="52"  top="163"  reflect="false"  ]
+[mask_off time=10]
+[tb_start_text mode=1 ]
+[chara_ptext name="Ирина"][p]
+Ты молодец, новичок! Везде участвуешь и показываешь себя с лучшей стороны — это [r]похвально. [p]
+Но ты мало общаешься с остальными.[p]
+Если у тебя есть вопросы или предложения — не молчи. [p]
+[chara_ptext name="Даня"][p]
+А мы тем временем снова делимся на группы. Куда на этот раз - мастер-класс или шефка?[p]
+[chara_ptext name=""][p]
+Как удачно складывается! Успею везде побывать и всё сделать. [p]
+Но этот свет не даёт мне покоя. Он совсем другой, чем у командира и комиссара...[p]
+
+
+[_tb_end_text]
+
+[tb_hide_message_window  ]
+[glink  color="btn_18_green"  storage="lineyka.ks"  size="20"  target="*мк"  text="<b>&nbsp;Мастер-класс&nbsp;</b>&nbsp;<br>&nbsp;<br>&nbsp;Вы&nbsp;взаимодействуете&nbsp;с&nbsp;детьми:&nbsp;<br>&nbsp;помогаете&nbsp;им&nbsp;создавать&nbsp;поделки,&nbsp;<br>делитесь&nbsp;знаниями&nbsp;<br>и&nbsp;вдохновляете&nbsp;на&nbsp;творчество.&nbsp;<br>Комната&nbsp;наполнена&nbsp;шумом&nbsp;и&nbsp;смехом,&nbsp;<br>но&nbsp;все&nbsp;увлечены&nbsp;своими&nbsp;проектами.&nbsp;<br>В&nbsp;этот&nbsp;момент&nbsp;герой&nbsp;получает&nbsp;уникальную&nbsp;возможность&nbsp;&mdash;&nbsp;<br>стать&nbsp;участником&nbsp;специального&nbsp;мастер-класса&nbsp;<br>по&nbsp;созданию&nbsp;секретного&nbsp;предмета."  x="27"  y="104"  width="573"  height="282"  _clickable_img=""  ]
+[glink  color="btn_18_green"  storage="lineyka.ks"  size="20"  target="*шефка"  text="<b>&nbsp;Шефская&nbsp;помощь&nbsp;</b>&nbsp;<br>&nbsp;<br>Вы&nbsp;можете&nbsp;принять&nbsp;участие&nbsp;в&nbsp;реальной&nbsp;помощи&nbsp;<br>для&nbsp;местного&nbsp;населения.&nbsp;Решите,&nbsp;как&nbsp;лучше&nbsp;поступить:<br>&nbsp;разделить&nbsp;работу&nbsp;с&nbsp;напарником&nbsp;или&nbsp;взять&nbsp;всё&nbsp;на&nbsp;себя,<br>&nbsp;проявив&nbsp;свою&nbsp;инициативу.&nbsp;Также&nbsp;перед&nbsp;Вами&nbsp;стоит&nbsp;выбор:&nbsp;<br>поговорить&nbsp;с&nbsp;пожилыми&nbsp;людьми,&nbsp;выслушать&nbsp;их&nbsp;истории&nbsp;и&nbsp;<br>&nbsp;&nbsp;повысить&nbsp;&laquo;уровень&nbsp;благодарности&raquo;,&nbsp;или&nbsp;сосредоточиться&nbsp;<br>&nbsp;на&nbsp;выполнении&nbsp;задачи,&nbsp;быстро&nbsp;справляясь&nbsp;с&nbsp;работой,&nbsp;но&nbsp;<br>упуская&nbsp;возможность&nbsp;услышать&nbsp;их&nbsp;воспоминания&nbsp;и&nbsp;мудрость."  x="634"  y="112"  width="614"  height="277"  _clickable_img=""  ]
+[s  ]
